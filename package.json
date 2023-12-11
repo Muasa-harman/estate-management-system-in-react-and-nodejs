@@ -8,7 +8,8 @@
     "start": "nodemon server",
     "dev": "nodemon server",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build":"npm install && npm install --prefix client && npm run build --prefix client"
+    "build": "npm install && npm install --prefix client && npm run build"
+
   },
   "keywords": [],
   "author": "",
